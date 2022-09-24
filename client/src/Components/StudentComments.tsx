@@ -27,8 +27,6 @@ const StudentComments = ({ nickname }: UserInfo) => {
     });
   }, []);
 
-  //let copyCommentsAPI = [...comments];
-
   const handleSubmit = (
     event: React.MouseEvent<HTMLButtonElement, MouseEvent>
   ) => {

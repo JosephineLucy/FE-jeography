@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Components/Home";
+import HomePage from "./Components/HomePage";
 import "./css/App.scss";
 import Header from "./Components/Header";
 import Welcome from "./Components/Welcome";
@@ -52,7 +52,7 @@ const App: React.FC = () => {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/" element={<HomePage />}></Route>
         <Route path="/select_quiz" element={<SelectQuiz />}></Route>
         <Route path="/profile" element={<Profile />}></Route>
         <Route path="/welcome" element={<Welcome />}></Route>

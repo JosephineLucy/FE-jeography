@@ -4,12 +4,19 @@ $primary-3: #6ac782;
 $secondary: #ec64be;
 $secondary-2: #000000ae;
 
-.left-align {
+.homepage {
+  width: 100%;
   display: flex;
-  flex-direction: column;
   padding-top: 50px;
   padding-right: 0;
   margin: 0;
+}
+
+.left-align {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 20px;
 }
 
 .home-title {
@@ -36,23 +43,8 @@ $secondary-2: #000000ae;
   width: 100%;
 }
 
-img.gif {
-  padding-left: 15%;
-}
-
 .log-profile-container {
   display: flex;
   align-items: row;
 }
 
-div.buttons-container {
-  margin-top: 0px;
-  margin-bottom: 15%;
-  display: flex;
-  justify-content: space-around;
-}
-
-section.homepage {
-  display: flex;
-  justify-content: space-around;
-}

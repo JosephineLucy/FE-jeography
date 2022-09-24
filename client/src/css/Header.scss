@@ -1,11 +1,12 @@
 .header {
   height: 60px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background-color: #2890cc;
-  padding: 0 30px;
+  // padding: 0 0px;
   margin: 0%;
 }
 
@@ -25,5 +26,6 @@
   -moz-box-shadow: none;
   box-shadow: none;
   font-weight: 900;
+  padding-right: 15px;
 }
 

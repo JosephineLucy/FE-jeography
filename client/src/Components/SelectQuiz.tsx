@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-import "../css/StudentLanding.scss";
+import "../css/SelectQuiz.scss";
 
 const SelectQuiz = () => {
   return (
-    <div className="HomePage">
+    <div className="quiz-select">
       <section className="page-title-container">
         <p className="page-title">Start collecting Jeos</p>
-      </section>
       <p className="sub-title">Choose your quiz below!</p>
+      </section>
       <section className="maps-container">
         <section className="flex">
           <Link to="/countries/england">

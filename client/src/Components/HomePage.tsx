@@ -13,7 +13,7 @@ const theme = createTheme({
   },
 });
 
-const Home = () => {
+const HomePage = () => {
   return (
     <section className="homepage">
       <section className="left-align">
@@ -26,12 +26,7 @@ const Home = () => {
             Take a quiz and collect your badge, it's called Jeo. Win at
             geography and watch your collection grow.
           </p>
-          <img
-            className="gif"
-            src="https://media.giphy.com/media/UOdoMz3baCENO/giphy.gif"
-          ></img>
         </section>
-        <div className="buttons-container">
           <section className="button-container">
             <ThemeProvider theme={theme}>
               <Link to="/teacher">
@@ -39,19 +34,23 @@ const Home = () => {
                   I'm a teacher
                 </Button>
               </Link>
-            </ThemeProvider>
-          </section>
-          <section className="button-container">
-            <Link to="/select_quiz">
+              <Link to="/select_quiz">
               <Button className="student-btn" size="small" variant="contained">
                 I'm a student
               </Button>
             </Link>
+            </ThemeProvider>
           </section>
-        </div>
       </section>
+      <section>
+          <img
+            className="gif"
+            
+            src="https://media.giphy.com/media/UOdoMz3baCENO/giphy.gif"
+            ></img>
+            </section>
     </section>
   );
 };
 
-export default Home;
+export default HomePage;
